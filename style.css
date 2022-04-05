@@ -1,0 +1,56 @@
+@import url(img/background3.jpg);
+body{
+    font-family:  sans-serif;
+    max-width: 50%;
+    margin: auto;
+    color: #333;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.face{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.title{
+    flex: 1;
+    margin-left: 10px;
+}
+.name{
+    color: gray;
+}
+.coral{
+    color: coral;
+}
+.qualification{
+    letter-spacing: 1px;
+}
+.hrline{
+    border: 2px solid coral ;
+}
+.table-heading {
+    min-width: 300px;
+    display: block;
+}
+.prop{
+    color: coral;
+    font-size: 20px;
+}
+.marginfix{
+    margin-top: 25px;
+}
+.jobheading {
+   font-size: 20px;
+   line-height: 25px;
+}
+.jobduration{
+    font-size: 14px;
+    line-height: 25px;
+}
+.jobdesc{
+    margin-top: 20px;
+}
